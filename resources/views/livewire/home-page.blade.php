@@ -27,7 +27,7 @@
 
 
                         <div class="mt-4">
-                            <a class="btn btn-primary w-100" href="#" wire:click.prevent="submit">Submit</a>
+                            <button class="btn btn-primary w-100" wire:click.prevent="submit" {{ $name ? null : 'disabled' }}>Submit</button>
                         </div>
 
 
