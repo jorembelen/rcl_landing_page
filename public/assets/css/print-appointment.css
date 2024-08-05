@@ -1,0 +1,268 @@
+@media print {
+    .no-print {
+        display: none;
+    }
+
+    .printable{
+        display: block;
+    }
+    .f-bottom {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        }
+    @page {
+        margin: .5cm !important;
+        }
+}
+
+.no-page-break {
+    page-break-before: avoid;
+    page-break-after: avoid;
+  }
+  
+.logo-align-left {
+    float: left;
+    margin-top: 1.2em;
+}
+.logo-align-right {
+    float: right;
+}
+.center-middle{
+    font-weight: bold;
+    margin-left: 18.5em;
+    margin-top: 100px;
+    margin-bottom: 0px;
+}
+.underline{
+    text-decoration: underline;
+}
+.center{
+    font-weight: bold;
+    margin-left: 17.5em;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+#bottom {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.no-border{
+    border:none;
+    text-align: center;
+    background-color: transparent;
+    border-style: solid;
+    border-width: 0px 0px 1px 0px;
+    border-color: black;
+}
+
+.left-align{
+    border:none;
+    text-align: left;
+    background-color: transparent;
+    border-style: solid;
+    border-width: 0px 0px 1px 0px;
+    border-color: black;
+}
+.logo-text{
+    font-size: 13px;
+}
+
+.panel-header{
+    font-size: 14px;
+}
+.panel-heading{
+    font-size: 15px;
+}
+.boxed-customer {
+    border: 1px solid black ;
+    height: 90px;
+}
+.boxed {
+    border: 1px solid black ;
+    height: 105px;
+}
+
+
+.line{
+    margin: 20px;
+    border-top: 1px solid #000;
+    width: 300px;
+    text-align: center;
+}
+
+.long-line{
+    margin: 20px;
+    border-top: 1px solid #000;
+    width: 700px;
+    text-align: right;
+}
+
+.center-long-line {
+    /* margin: 20px; */
+    border-top: 1px solid #000;
+    width: 800px;
+    text-align: center;
+    margin-left: 50px;
+}
+
+.short-line{
+    border-bottom: .5px solid #000;
+    width: 275px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.shorter-line{
+    border-bottom: .5px solid #000;
+    width: 232px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.signature-line{
+    border-bottom: .5px solid #000;
+    width: 200px;
+    text-align: center;
+    font-weight: bold;
+}
+
+#bottom {
+    position: absolute;
+    bottom: 0;
+    right: 2px;
+}
+.printable{
+    display: none;
+}
+
+.table thead tr > th {
+    background-color:#D9D9D9 !important;
+ }
+
+
+ .label-container{
+	position:fixed;
+	bottom:48px;
+	right:105px;
+	display:table;
+	visibility: hidden;
+}
+
+.label-text{
+	color:#FFF;
+	background:rgba(51,51,51,0.5);
+	display:table-cell;
+	vertical-align:middle;
+	padding:10px;
+	border-radius:3px;
+}
+
+.label-arrow{
+	display:table-cell;
+	vertical-align:middle;
+	color:#333;
+	opacity:0.5;
+}
+
+.float{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	right:40px;
+	background-color:#06C;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+	box-shadow: 2px 2px 3px #999;
+}
+
+.my-float{
+	font-size:24px;
+	margin-top:18px;
+}
+
+a.float + div.label-container {
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0s, opacity 0.5s ease;
+}
+
+a.float:hover + div.label-container{
+  visibility: visible;
+  opacity: 1;
+}
+
+.horizontal-line {
+    border-top: 2px solid rgb(79, 76, 76);
+    margin: 10px 0;
+    width: 100%;
+}
+
+tr.borderless td {
+    border: none;
+    font-size: 10px;
+  }
+
+th {
+    font-size: 9px; /* Adjust the font size as needed */
+}
+
+.right-align-arabic {
+    text-align: right;
+    font-size: 10px;
+  }
+
+.left-align-arabic {
+    text-align: left;
+    font-size: 10px;
+  }
+
+  .my-container {
+    display: flex; /* Use flexbox to create a two-column layout */
+    border: 1px solid #ccc; /* Add a border to the container */
+  }
+  
+  .my-column {
+    flex: 1; /* Each column takes up an equal amount of space */
+    padding: 10px; /* Add padding for spacing */
+    border-right: 1px solid #ccc; /* Add a border to separate columns */
+  }
+  .my-column:last-child {
+    border-right: none; /* Remove the border on the last column */
+  }
+
+  .rate {
+    background-color: #fff; /* White background for the container */
+    padding: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* Vertically center align items in the container */
+    }
+
+    .rate-header {
+        display: inline-block; 
+    }
+
+    .circles {
+        text-align: right; /* Position circles and numbers on the right */
+    }
+
+    .circle {
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        background-color: #fff; /* White background for the circles */
+        color: #000; /* Black text color */
+        text-align: center;
+        line-height: 30px;
+        font-weight: bold;
+        display: inline-block;
+        margin-left: 10px; /* Add some margin between circles */
+        border: 1px solid #000; /* Black border for the circles */
+    }
