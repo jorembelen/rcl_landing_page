@@ -41,7 +41,7 @@ class HomePage extends Component
             'employees' => 'https://ems.rclprojects.com',
             'reservation' => 'https://reservation.rclprojects.com',
             'probation' => 'https://probation.rclprojects.com',
-            'safety' => 'https://hse.rclprojects.com',
+            'safety' => 'https://hse.twinpeaksg.com',
         ];
 
         if (array_key_exists($this->name, $domains)) {
