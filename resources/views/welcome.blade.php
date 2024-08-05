@@ -63,7 +63,7 @@
                                                     <li>
                                                         <div class="avatar-sm d-inline-block">
                                                             <div class="avatar-title bg-white shadow-lg overflow-hidden rounded-circle">
-                                                                <img src="assets/images/users/avatar-2.jpg" alt="" class="img-fluid">
+                                                                <img src="assets/images/users/avatar-8.jpg" alt="" class="img-fluid">
                                                             </div>
                                                         </div>
                                                     </li>
@@ -77,7 +77,7 @@
                                                     <li>
                                                         <div class="avatar-sm d-inline-block">
                                                             <div class="avatar-title bg-white shadow-lg overflow-hidden rounded-circle">
-                                                                <img src="assets/images/users/avatar-4.jpg" alt="" class="img-fluid">
+                                                                <img src="assets/images/users/avatar-9.jpg" alt="" class="img-fluid">
                                                             </div>
                                                         </div>
                                                     </li>
